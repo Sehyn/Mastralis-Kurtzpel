@@ -3,6 +3,7 @@
 ![](/Images/FormPicture.png)
 
 
+Video: https://streamable.com/y396x
 
 ## # Mastralis :
 Mastralis is a DotNet simple solo trainer with a few features such as :
