@@ -46,9 +46,9 @@ Mastralis is a DotNet simple solo trainer with a few features such as :
 * UnknownCheats community (https://www.unknowncheats.me/forum/portal.php)
 
 ## Using Library :
-https://github.com/ubergonmx/MaterialSkin (Compile and add as reference) - UI
-https://www.nuget.org/packages/MetroModernUI/ (Added to project) - UI
-https://github.com/erfg12/memory.dll (added to project) - Read/Write Memory
+*https://github.com/ubergonmx/MaterialSkin (Compile and add as reference) - UI
+*https://www.nuget.org/packages/MetroModernUI/ (Added to project) - UI
+*https://github.com/erfg12/memory.dll (added to project) - Read/Write Memory
 
 ## Information :
 * First of all thank you for downloading my source code.
