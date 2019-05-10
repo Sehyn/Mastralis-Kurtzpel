@@ -8,6 +8,12 @@ using Memory;
 namespace Mastralis
 {
     //Please see Github for Fixes / To do / Or Done.
+
+    #region Offsets 05/10/19
+
+
+
+    #endregion
     public partial class Mastralis : MetroFramework.Forms.MetroForm
     {
         public Mem MemLib = new Mem();
@@ -35,7 +41,7 @@ namespace Mastralis
                 if (IsAdministrator())
                 {
                     MetroFramework.MetroMessageBox.Show(this, "Attached to the game! - Have fun @123lkj12lk312kjl3 | @Sehyn", "Succes!", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    materialFlatButton1.Enabled = false;
+                    AttachBtn.Enabled = false;
                     float atk_speed = MemLib.readFloat("TheChase-Win64-Shipping.exe+0x0036E3AC0,0x20,0x90,0x8,0x0,0x17D0");
                     label1.Text = atk_speed.ToString();
                 }
@@ -181,9 +187,9 @@ namespace Mastralis
         }
         #endregion
         #region All Timers
-        private void SpeedH_Tick(object sender, EventArgs e)
+        private void AtkH_Tick(object sender, EventArgs e)
         {
-            MemLib.writeMemory("TheChase-Win64-Shipping.exe+0x0036E3AC0,0x20,0x90,0x8,0x0,0x17D0", "float", materialSingleLineTextField1.Text);
+            MemLib.writeMemory("TheChase-Win64-Shipping.exe+0x0036E3AC0,0x20,0x90,0x8,0x0,0x17D0", "float", ATKH_Txt.Text);
             float atk_speed = MemLib.readFloat("TheChase-Win64-Shipping.exe+0x0036E3AC0,0x20,0x90,0x8,0x0,0x17D0");
             label1.Text = atk_speed.ToString();
 
@@ -191,14 +197,14 @@ namespace Mastralis
 
         private void CastH_Tick(object sender, EventArgs e)
         {
-            MemLib.writeMemory("TheChase-Win64-Shipping.exe+0x0036E3AC0,0x20,0x90,0x8,0x0,0x17D4", "float", materialSingleLineTextField2.Text);
+            MemLib.writeMemory("TheChase-Win64-Shipping.exe+0x0036E3AC0,0x20,0x90,0x8,0x0,0x17D4", "float", CASTH_Txt.Text);
             float atk_speed = MemLib.readFloat("TheChase-Win64-Shipping.exe+0x0036E3AC0,0x20,0x90,0x8,0x0,0x17D4");
             label4.Text = atk_speed.ToString();
         }
 
         private void MovH_Tick(object sender, EventArgs e)
         {
-            MemLib.writeMemory("TheChase-Win64-Shipping.exe+0x0036E3AC0,0x20,0x90,0x8,0x0,0x17D8", "float", materialSingleLineTextField3.Text);
+            MemLib.writeMemory("TheChase-Win64-Shipping.exe+0x0036E3AC0,0x20,0x90,0x8,0x0,0x17D8", "float", MOVH_Txt.Text);
             float atk_speed = MemLib.readFloat("TheChase-Win64-Shipping.exe+0x0036E3AC0,0x20,0x90,0x8,0x0,0x17D8");
             label6.Text = atk_speed.ToString();
         }
