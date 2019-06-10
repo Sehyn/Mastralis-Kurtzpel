@@ -1,0 +1,234 @@
+	<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="26">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>9</ID>
+      <Description>"Movespeed"</Description>
+      <LastState Value="1.289999962" RealAddress="1E3D70FD7F8"/>
+      <VariableType>Float</VariableType>
+      <Address>"TheChase-Win64-Shipping.exe"+039E9700</Address>
+      <Offsets>
+        <Offset>17E8</Offset>
+        <Offset>390</Offset>
+        <Offset>30</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>11</ID>
+      <Description>"Attackspeed"</Description>
+      <LastState Value="20" RealAddress="1E3D70FD7F0"/>
+      <VariableType>Float</VariableType>
+      <Address>"TheChase-Win64-Shipping.exe"+039E9700</Address>
+      <Offsets>
+        <Offset>17E0</Offset>
+        <Offset>390</Offset>
+        <Offset>30</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>12</ID>
+      <Description>"Cast Speed"</Description>
+      <LastState Value="20" RealAddress="1E3D70FD7F4"/>
+      <VariableType>Float</VariableType>
+      <Address>"TheChase-Win64-Shipping.exe"+039E9700</Address>
+      <Offsets>
+        <Offset>17E4</Offset>
+        <Offset>390</Offset>
+        <Offset>30</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>13</ID>
+      <Description>"Mana"</Description>
+      <LastState Value="1" RealAddress="1E3D70FD928"/>
+      <VariableType>Float</VariableType>
+      <Address>"TheChase-Win64-Shipping.exe"+039E9700</Address>
+      <Offsets>
+        <Offset>1918</Offset>
+        <Offset>390</Offset>
+        <Offset>30</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>14</ID>
+      <Description>"Stamina"</Description>
+      <LastState Value="1" RealAddress="1E3D70FD920"/>
+      <VariableType>Float</VariableType>
+      <Address>"TheChase-Win64-Shipping.exe"+039E9700</Address>
+      <Offsets>
+        <Offset>1910</Offset>
+        <Offset>390</Offset>
+        <Offset>30</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>10</ID>
+      <Description>"Damage Multiplier"</Description>
+      <LastState Value="99" RealAddress="1E3D70FD7FC"/>
+      <VariableType>Float</VariableType>
+      <Address>"TheChase-Win64-Shipping.exe"+039E9700</Address>
+      <Offsets>
+        <Offset>17EC</Offset>
+        <Offset>390</Offset>
+        <Offset>30</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>16</ID>
+      <Description>"HP"</Description>
+      <LastState Value="1" RealAddress="1E3D70FD894"/>
+      <VariableType>Float</VariableType>
+      <Address>"TheChase-Win64-Shipping.exe"+039E9700</Address>
+      <Offsets>
+        <Offset>1884</Offset>
+        <Offset>390</Offset>
+        <Offset>30</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>17</ID>
+      <Description>"HP Regen"</Description>
+      <LastState Value="100" RealAddress="1E3D70FD898"/>
+      <VariableType>Float</VariableType>
+      <Address>"TheChase-Win64-Shipping.exe"+039E9700</Address>
+      <Offsets>
+        <Offset>1888</Offset>
+        <Offset>390</Offset>
+        <Offset>30</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>18</ID>
+      <Description>"Max HP"</Description>
+      <LastState Value="10000000" RealAddress="1E3D70FD7A8"/>
+      <VariableType>Float</VariableType>
+      <Address>"TheChase-Win64-Shipping.exe"+039E9700</Address>
+      <Offsets>
+        <Offset>1798</Offset>
+        <Offset>390</Offset>
+        <Offset>30</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>20</ID>
+      <Description>"Max HP Regen"</Description>
+      <LastState Value="9000" RealAddress="1E3D70FD7AC"/>
+      <VariableType>Float</VariableType>
+      <Address>"TheChase-Win64-Shipping.exe"+039E9700</Address>
+      <Offsets>
+        <Offset>179C</Offset>
+        <Offset>390</Offset>
+        <Offset>30</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>19</ID>
+      <Description>"Max Stamina"</Description>
+      <LastState Value="2000" RealAddress="1E3D70FD7B0"/>
+      <VariableType>Float</VariableType>
+      <Address>"TheChase-Win64-Shipping.exe"+039E9700</Address>
+      <Offsets>
+        <Offset>17A0</Offset>
+        <Offset>390</Offset>
+        <Offset>30</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>21</ID>
+      <Description>"Max Stamina Regen"</Description>
+      <LastState Value="200" RealAddress="1E3D70FD7B4"/>
+      <VariableType>Float</VariableType>
+      <Address>"TheChase-Win64-Shipping.exe"+039E9700</Address>
+      <Offsets>
+        <Offset>17A4</Offset>
+        <Offset>390</Offset>
+        <Offset>30</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>22</ID>
+      <Description>"Max Mana"</Description>
+      <LastState Value="2000" RealAddress="1E3D70FD7B8"/>
+      <VariableType>Float</VariableType>
+      <Address>"TheChase-Win64-Shipping.exe"+039E9700</Address>
+      <Offsets>
+        <Offset>17A8</Offset>
+        <Offset>390</Offset>
+        <Offset>30</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>23</ID>
+      <Description>"Max Mana Regen"</Description>
+      <LastState Value="100" RealAddress="1E3D70FD7BC"/>
+      <VariableType>Float</VariableType>
+      <Address>"TheChase-Win64-Shipping.exe"+039E9700</Address>
+      <Offsets>
+        <Offset>17AC</Offset>
+        <Offset>390</Offset>
+        <Offset>30</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>24</ID>
+      <Description>"Physical Crit Chance"</Description>
+      <LastState Value="1" RealAddress="1E3D70FD7D0"/>
+      <VariableType>Float</VariableType>
+      <Address>"TheChase-Win64-Shipping.exe"+039E9700</Address>
+      <Offsets>
+        <Offset>17C0</Offset>
+        <Offset>390</Offset>
+        <Offset>30</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>25</ID>
+      <Description>"Magical Crit Chance"</Description>
+      <LastState Value="1" RealAddress="1E3D70FD7D4"/>
+      <VariableType>Float</VariableType>
+      <Address>"TheChase-Win64-Shipping.exe"+039E9700</Address>
+      <Offsets>
+        <Offset>17C4</Offset>
+        <Offset>390</Offset>
+        <Offset>30</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>26</ID>
+      <Description>"Physical Def"</Description>
+      <LastState Value="2" RealAddress="1E3D70FD7E0"/>
+      <VariableType>Float</VariableType>
+      <Address>"TheChase-Win64-Shipping.exe"+039E9700</Address>
+      <Offsets>
+        <Offset>17D0</Offset>
+        <Offset>390</Offset>
+        <Offset>30</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>27</ID>
+      <Description>"Magical Def"</Description>
+      <LastState Value="2" RealAddress="1E3D70FD7E4"/>
+      <VariableType>Float</VariableType>
+      <Address>"TheChase-Win64-Shipping.exe"+039E9700</Address>
+      <Offsets>
+        <Offset>17D4</Offset>
+        <Offset>390</Offset>
+        <Offset>30</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>28</ID>
+      <Description>"Posture Resist"</Description>
+      <LastState Value="3.5" RealAddress="1E3D70FD7E8"/>
+      <VariableType>Float</VariableType>
+      <Address>"TheChase-Win64-Shipping.exe"+039E9700</Address>
+      <Offsets>
+        <Offset>17D8</Offset>
+        <Offset>390</Offset>
+        <Offset>30</Offset>
+      </Offsets>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
